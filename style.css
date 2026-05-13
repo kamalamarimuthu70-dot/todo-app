@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Light Mode */
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #fff;
+  padding: 25px;
+  width: 360px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+#themeBtn {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  background: #667eea;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #5a67d8;
+}
+
+.filters {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  margin-top: 15px;
+}
+
+li {
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+li:hover {
+  transform: scale(1.02);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.delete-btn {
+  background: red;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.edit-btn {
+  background: orange;
+  margin-right: 5px;
+}
+
+/* 🌙 Dark Mode */
+body.dark {
+  background: #1e1e2f;
+}
+
+body.dark .container {
+  background: #2c2c3c;
+  color: white;
+}
+
+body.dark input {
+  background: #444;
+  color: white;
+  border: 1px solid #666;
+}
+
+body.dark li {
+  background: #3a3a4f;
+}
+
+body.dark button {
+  background: #555;
+}
+
+body.dark .delete-btn {
+  background: #ff4d4d;
+}
+
+body.dark .edit-btn {
+  background: #ffaa00;
+}
