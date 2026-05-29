@@ -13,6 +13,9 @@ A simple and responsive Todo List application built using HTML, CSS, and JavaScr
 - CSS3
 - JavaScript
 
+**Live Demo**
+https://kamalamarimuthu70-dot.github.io/todo-app/
+
 **Installation**
 1.Clone the repository
 ```bash
